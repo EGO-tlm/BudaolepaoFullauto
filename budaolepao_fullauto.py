@@ -4,7 +4,7 @@ import time
 
 time.sleep(5)
 pyautogui.moveTo(822, 105, duration = 3)
-while True:
+for i in range(55):
     pyautogui.click()
     pyautogui.moveRel(121, 0, duration = 1)
     pyautogui.click()
